@@ -1,5 +1,5 @@
 import { Tool } from './types';
-import { Terminal, Shield, call, google derive, Youtube, Github, Twitter, MessageCircle } from 'lucide-react';
+import { Terminal, Shield, Cpu, Wifi, Youtube, Github, Twitter, MessageCircle } from 'lucide-react';
 import React from 'react';
 
 // ==========================================
@@ -20,7 +20,7 @@ export const TOOLS_DATA: Tool[] = [
     description: 'This is a derive link I made for verify your WhatsApp number. It is very good and secure.', // Change Description
     version: '1.0.0',
     downloadUrl: 'https://drive.google.com/drive/folders/1SwifRlAFlUyI8NMh1Zz3cw5qoTEVGr-Z', // PASTE DOWNLOAD LINK HERE
-    icon: 'google derive',
+    icon: 'wifi',
     category: 'Network'
   },
   {
@@ -29,8 +29,8 @@ export const TOOLS_DATA: Tool[] = [
     description: 'IN THIS DERIVE, How to call from a private numbe?.', // Change Description
     version: '2.5',
     downloadUrl: 'https://drive.google.com/file/d/1kAEThTB3VF4ZgS1M1rgBnBzNFec42yQQ/view?usp=drivesdk', // PASTE DOWNLOAD LINK HERE
-    icon: 'call',
-    category: 'Network'
+    icon: 'cpu',
+    category: 'Exploit'
   },
   {
     id: '3',
